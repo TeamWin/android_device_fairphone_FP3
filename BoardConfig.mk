@@ -81,6 +81,7 @@ TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint;ro.build.version.incremental"
 PRODUCT_EXTRA_RECOVERY_KEYS := $(DEVICE_PATH)/releasekey
+TW_HAS_EDL_MODE := true
 
 # Debug flags
 #TWRP_INCLUDE_LOGCAT := true
